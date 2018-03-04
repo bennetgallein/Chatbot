@@ -13,6 +13,9 @@ public class Chatbot {
 	public static void main(String[] args) {
 		b = new Chatbot();
 		b.p.registerKnown();
+		// custom patterns here:
+		
+		// end of custom patterns
 		b.waitForInput();
 	}
 

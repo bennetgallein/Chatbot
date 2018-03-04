@@ -29,4 +29,7 @@ public class Patterns {
 				new ArrayList<String>(Arrays.asList("Leider werden dynamische Values nicht aktualisiert.")));
 		patterns.add(time);
 	}
+	public void add(Pattern p) {
+		this.patterns.add(p);
+	}
 }
